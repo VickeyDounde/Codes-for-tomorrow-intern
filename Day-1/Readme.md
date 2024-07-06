@@ -57,6 +57,7 @@ systemctl status nginx
 Stop Your Web Server
 ```
 sudo systemctl stop nginx
+```
 Start Your Web Server
 ```
 sudo systemctl start nginx
@@ -71,7 +72,6 @@ Disable NGINX from Starting Automatically on Boot
 sudo systemctl disable nginx
 ```
 Re-enable the Service to Start Up at Boot
-
 
 ```
 sudo systemctl enable nginx
