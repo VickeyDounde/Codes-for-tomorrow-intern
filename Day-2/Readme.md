@@ -1,3 +1,5 @@
+##DAY-2 (6/7/24)
+
 # Git Basics
 
 ## Question 1: What Is Git?
