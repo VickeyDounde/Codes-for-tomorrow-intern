@@ -33,3 +33,53 @@ Apache and NGINX are both open-source web servers that can run large-scale appli
 #### Performance
 - NGINX's event-driven architecture makes it faster than Apache's process-based architecture.
 - NGINX can also provide higher concurrency and performance.
+
+
+### Question 4: How to Install NGINX in Ubuntu and Basic Configurations?
+To install NGINX on Ubuntu and perform basic configurations, follow these steps:
+
+#### Get a Ubuntu Machine
+Get a Ubuntu machine on your local system or from providers such as AWS, Azure.
+
+#### Install NGINX
+```
+sudo apt-get update
+sudo apt install nginx
+```
+Check the List of Every App Profile That You've Made on the Firewall
+```
+sudo ufw app list
+```
+Check Your Web Server
+```
+systemctl status nginx
+```
+Stop Your Web Server
+```
+sudo systemctl stop nginx
+Start Your Web Server
+```
+sudo systemctl start nginx
+```
+Restart Your Web Server
+```
+sudo systemctl restart nginx
+```
+Disable NGINX from Starting Automatically on Boot
+
+```
+sudo systemctl disable nginx
+```
+Re-enable the Service to Start Up at Boot
+
+
+```
+sudo systemctl enable nginx
+```
+
+
+
+
+
+
+
